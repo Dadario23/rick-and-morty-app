@@ -8,7 +8,7 @@ function App() {
     <div>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/rick-and-morty-app" element={<Home />} />
         <Route path="/personajes" element={<CharacterList />} />
       </Routes>
     </div>

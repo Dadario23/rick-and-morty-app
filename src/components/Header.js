@@ -22,7 +22,10 @@ export default function Header() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav d-flex ">
             <li className="nav-item mr-5 ">
-              <Link className="text-decoration-none text-dark" to="/">
+              <Link
+                className="text-decoration-none text-dark"
+                to="/rick-and-morty-app"
+              >
                 <button className="btn btn-light">Home</button>
               </Link>
             </li>

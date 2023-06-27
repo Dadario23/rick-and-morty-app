@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# rick-and-morty-app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+rick-and-morty-app is a React app that allows users to list characters from the animated series "Rick and Morty". It consumes the "https://rickandmortyapi.com/" API to fetch character data and implements pagination for loading additional characters. The app uses React Router DOM 6 for routing between different views.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Character Listing: list characters from the "Rick and Morty" series.
+- Pagination: Load additional characters as the user scrolls or clicks on pagination buttons.
+- Routing: Navigate between different views using React Router DOM 6.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone this repository to your local machine:
+   git clone https://github.com/Dadario23/rick-and-morty-app.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Navigate to the project directory:
+   `cd rick-and-morty-app`
 
-### `npm test`
+3. Install the required dependencies:
+   `npm install`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+To start the app, use the following command:
+`npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This will launch the app in development mode and open it in your default browser. If it doesn't open automatically, navigate to [http://localhost:3000] in your browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Rick and Morty](/public/Rick-and-Morty-Logo.webp)
 
-### `npm run eject`
+## Configuration
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+No additional configuration is required for this app as it uses the "https://rickandmortyapi.com/" API directly.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+If you wish to contribute to this project, follow these steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Create a fork of this repository on GitHub.
 
-## Learn More
+2. Clone your fork to your local machine.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Create a new branch for your contribution:
+   `git checkout -b my-new-feature`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Make the necessary changes and commit descriptive commits.
 
-### Code Splitting
+5. Push your changes to your remote repository:
+   `git push origin my-new-feature`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+6. Open a pull request on GitHub and describe your changes in detail.
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[MIT License](https://opensource.org/license/mit/)
 
-### Making a Progressive Web App
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+If you have any questions or suggestions regarding this project, feel free to contact me. You can send me an email at dandrada23@gmail.com or connect with me on Twitter: [@DarioAndrada](https://twitter.com/DarioAndrada).
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy exploring the world of "Rick and Morty" characters!
