@@ -28,7 +28,7 @@ This will launch the app in development mode and open it in your default browser
 
 ## Screenshots
 
-![Rick and Morty](/public/Rick-and-Morty-Logo.webp)
+![Rick and Morty](/public/screenshot.webp)
 
 ## Configuration
 
